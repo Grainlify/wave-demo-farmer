@@ -2,7 +2,7 @@
 use soroban_sdk::{contract, contractimpl, symbol_short, Address, Env};
 
 #[contract]
-pub struct Counter;
+pub struct Counter; 
 
 #[contractimpl]
 impl Counter {
